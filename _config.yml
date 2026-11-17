@@ -1,0 +1,42 @@
+# ---- Site settings: edit these ----
+title: "Hello. I'm YOUR NAME."
+email: 'you@example.com'
+description: "I'm a [your role] based in [your city], interested in [your passions]."
+
+# For a user site (repo named USERNAME.github.io) leave baseurl empty
+# and set url to your GitHub Pages address.
+baseurl: ""
+url: "https://YOUR-USERNAME.github.io"
+
+# Social buttons on the home page (leave as '' to hide one)
+github_username: 'YOUR-USERNAME'
+linkedin_username: ''
+twitter_username: ''
+medium_username: ''
+
+# ---- Build settings ----
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+paginate: 10
+paginate_path: "/page:num/"
+
+# ---- Phantom settings ----
+footer_text: '© 2026 YOUR NAME'
+admin_name: 'YOUR NAME'
+google_analytics: ''   # optional
+enable_contact: false
+
+section_title: 'A little more about me'
+section_subtitle: 'What I do, what I’ve made, and what I’m into.'
+
+enable_nav: true
+nav_item:
+  - { url: '/', text: 'Home' }
+  - { url: '/about', text: 'About' }
+
+exclude:
+  - README.md
+  - Gemfile
+  - phantom.gemspec
+  - LICENSE
